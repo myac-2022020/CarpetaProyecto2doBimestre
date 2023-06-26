@@ -1,0 +1,148 @@
+*{
+  font-family: 'Noto Serif', serif;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+.contenedor{
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 180px auto;
+  grid-template-areas: "menu contenido";
+}
+.menuLateral{
+  grid-area: menu;
+  background-color: #FFFFFF;
+  border-right: 5px solid #DDDDDD;
+}
+.menu{
+  grid-area: contenido;
+  background-color: #F1EEEE;
+  text-align: center;
+}
+.menu h1{
+  text-align: center;
+  color: #A60707;
+}
+.menuLateral ul li{
+  text-align: center;
+  padding: 1.5em;
+}
+.Index{
+  border-bottom: 5px solid #DDDDDD;
+  color: #891010;
+  font-size: 19px;
+}
+.Curiosidades{
+  border-bottom: 5px solid #DDDDDD;
+  color: #891010;
+  font-size: 19px;
+}
+.Clasicos{
+  border-bottom: 5px solid #DDDDDD;
+  color: #891010;
+  font-size: 19px;
+}
+.Titulo{
+  text-align: center;
+  color: #891010;
+  font-size: 2.5em;
+}
+.menuProgramador{
+  grid-area: contenido;
+  background-color: #F1EEEE;
+  text-align: center;
+}
+.menuProgramador h1{
+  text-align: center;
+  color: #A60707;
+  font-size: 2.5em;
+}
+.TipoDato{
+  text-align: left;
+  border-left: 15px solid #F1EEEE;
+  border-bottom: .5em solid #F1EEEE;
+  border-top: .2em solid #F1EEEE;
+  color: #D4D481;
+  font-size: 2em;
+  padding-top: .1em;
+}
+.Dato{
+  border-top: 5px solid #F1EEEE;
+  border-right: 5em solid #F1EEEE;
+  border-bottom: 0.1em solid #A60707;
+  padding-bottom: 1em;
+}
+.foto{
+  padding: 10px;
+}
+.Texto{
+  text-align: center;
+}
+.Progra{
+  border-top: 7em solid #FFFFFF;
+}
+.menuClasicos{
+  grid-area: contenido;
+  background-color: #F1EEEE;
+  text-align: center;
+}
+.menuClasicos h1{
+  text-align: center;
+  color: #A60707;
+}
+.menuClasicos p{
+  text-align: center;
+  padding: 10px;
+}
+.Contenedor{
+  display: inline-block;
+  width: 30vw;
+  height: 45vh;
+  border-top: 1.5em solid #F1EEEE;
+  border-bottom: .6em solid #F1EEEE;
+  border-left: .3em solid #F1EEEE;
+  border-radius: 1em;
+  background-color: #BBBBBB;
+}
+.Portada{
+  width: 253px;
+  height: 170px;
+  float: center;
+  border-top: 15px solid #BBBBBB;
+}
+.titulo{
+  border-top: 8px solid #BBBBBB;
+}
+.titulo2{
+  text-align: left;
+  border-top: 8px solid #BBBBBB;
+  border-left: .6em solid #BBBBBB;
+}
+.Contenido{
+  width: 253px;
+  height: 170px;
+  float: center;
+  border-top: 15px solid #BBBBBB;
+  border-left: .7em solid #BBBBBB;
+  float: left;
+}
+.Contenedor2{
+  display: block;
+  width: 80vw;
+  height: 45vh;
+  border-top: 1.5em solid #F1EEEE;
+  border-bottom: .6em solid #F1EEEE;
+  border-left: 2em solid #F1EEEE;
+  border-radius: 1em;
+  background-color: #BBBBBB;
+}
+.ClassicContent{
+  text-align: center;
+  border-left: 16em solid #BBBBBB;
+  width: 75vw;
+  height: 30vh;
+}
